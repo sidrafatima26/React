@@ -7,6 +7,9 @@ Welcome to the repository for our React application! This repository serves as a
 1. [Prop Drilling in React](propdrilling.md)
 2. [Controlled Forms in React](controlledforms.md)
 3. [React Router](reactrouter.md)
+4. [React Forms](reactfotms.md)
+5. [State Lifting](statelifting.md)
+6. [useState Hook](usestatehook.md)
 
 ## Overview
 
@@ -25,6 +28,28 @@ Understand the benefits and implementation of controlled forms in React applicat
 ### 3. React Router (reactrouter.md)
 
 Explore the powerful React Router library for managing navigation in single-page applications. This section covers basic routing, route parameters, nested routes, and advanced features like route guards and code splitting.
+
+### 4. React Forms (reactfotms.md)
+Form Component:
+The repository includes a FormComponent showcasing the implementation of form elements.
+Input Handling:
+Explore how user inputs are captured and managed within the React form structure.
+
+### 5. State Lifting (statelifting.md)
+Parent-Child Relationship:
+
+Understand the concept of state lifting, where a parent component manages the state and passes it down to child components.
+Callback Functions:
+
+Witness the use of callback functions for child components to interact with and modify the state in the parent component.
+
+### 6. useState Hook (usestatehook.md)
+State Management:
+
+Dive into the simplicity and power of state management using the useState hook in functional components.
+Dynamic Updates:
+
+Experience how the useState hook facilitates dynamic updates and re-renders based on state changes.
 
 ## Usage
 
