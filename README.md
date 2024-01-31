@@ -10,6 +10,8 @@ Welcome to the repository for our React application! This repository serves as a
 4. [React Forms](reactfotms.md)
 5. [State Lifting](statelifting.md)
 6. [useState Hook](usestatehook.md)
+7. [useContext](useContext.md)
+8. [useEffect](useEffect.md)
 
 ## Overview
 
@@ -50,6 +52,19 @@ Dive into the simplicity and power of state management using the useState hook i
 Dynamic Updates:
 
 Experience how the useState hook facilitates dynamic updates and re-renders based on state changes.
+
+### 7. useContext (useContext.md)
+
+The useContext hook is a way to access the shared data in a functional component without having to use the Consumer component. The syntax for the useContext hook is: const value = useContext(MyContext); Here, MyContext is the context object created using React.
+
+### 8. useEffect (useEffect.md)
+The useEffect Hook allows you to perform side effects in your components.
+
+Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
 
 ## Usage
 
